@@ -44,4 +44,4 @@ print('上传文件成功！')
 
 # 关闭浏览器
 time.sleep(15)
-#browser.quit()
+browser.quit()
