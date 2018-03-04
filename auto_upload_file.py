@@ -32,8 +32,8 @@ with open("E://baidu_disk.txt",'r') as f:
     username,password = f.read().split()
 
 # 输入账号、密码，并点击“登录按钮”
-browser.find_element_by_id("TANGRAM__PSP_4__userName").send_keys("15921925731")
-browser.find_element_by_id("TANGRAM__PSP_4__password").send_keys("lianmingjie2")
+browser.find_element_by_id("TANGRAM__PSP_4__userName").send_keys(username)
+browser.find_element_by_id("TANGRAM__PSP_4__password").send_keys(password)
 browser.find_element_by_id("TANGRAM__PSP_4__submit").click()
 time.sleep(15)
 
